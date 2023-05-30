@@ -1,0 +1,27 @@
+{
+  "name": "svglogocreator",
+  "version": "1.0.0",
+  "description": "a app to help make a unique logo",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannyak13619/SVGlogocreator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mannyak13619/SVGlogocreator/issues"
+  },
+  "homepage": "https://github.com/mannyak13619/SVGlogocreator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "svg.js": "^2.7.1"
+  }
+}
