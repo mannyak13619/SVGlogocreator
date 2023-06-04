@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
-// const { Circle, Square, Triangle } = require("./lib/shapes.js");
-const { Circle } = require("./lib/shapes");
+
+const { Circle,Square,Triangle } = require("./lib/shapes");
+
 const fs = require("fs");
 const {writeFile} =require(`fs`)
 const SVG =require(`svg.js`);
@@ -40,9 +41,9 @@ async function logo() {
   if (answers.shape === "circle") {
     shape = new Circle(answers.shapeColor, answers.text, answers.textColor);
   } else if (answers.shape === "square") {
-    // shape = new Square(answers.shapeColor, answers.text, answers.textColor);
+     shape = new Square(answers.shapeColor, answers.text, answers.textColor);
   } else if (answers.shape === "triangle") {
-    // shape = new Triangle(answers.shapeColor, answers.text, answers.textColor);
+     shape = new Triangle(answers.shapeColor, answers.text, answers.textColor);
   }
 
   const svg = shape.render();
